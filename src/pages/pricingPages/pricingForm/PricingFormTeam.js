@@ -45,7 +45,7 @@ const dataFormTeam = [
 
     {
         id: 8,
-        isUpdate: false,
+        isUpdate: true,
         text: "Priority support"
     },
 
