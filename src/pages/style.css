@@ -1,0 +1,13 @@
+.header-animate {
+    position: relative;
+    top: -75px;
+    animation-name: header;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes header {
+    from {top: -75px;}
+    to {top: 0px;}
+  }

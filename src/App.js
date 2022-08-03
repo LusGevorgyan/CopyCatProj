@@ -1,0 +1,27 @@
+import React from 'react'
+import { Route, Routes } from 'react-router-dom';
+import Layout from './layout/Layout';
+import Main from './main/Main';
+import PricingPages from './pages/pricingPages/PricingPages';
+import ProductPages from './pages/productPages/ProductPages';
+import ReleasesPages from './pages/releasesPages/ReleasesPages';
+import RequestPages from './pages/requestInvitePages/RequestPages';
+import RequestAccessPages from './pages/requestAccess/RequestAccessPages';
+
+function App() {
+  return ( 
+    <div className=''>
+      <Routes>
+          {/* <Route path='/' element={<Layout/>}> */}
+          <Route path='/' element={<Main/>}/>
+          <Route path='/pricing' element={<PricingPages/>}/>
+          <Route path='/product' element={<ProductPages/>}/>
+          <Route path='/releases' element={<ReleasesPages/>}/>
+          <Route path='request' element={<RequestPages/>}/>
+          <Route path='requestAccess' element={<RequestAccessPages/>}/>
+        {/* </Route> */}
+      </Routes>
+    </div>    
+  );
+}
+export default App;
