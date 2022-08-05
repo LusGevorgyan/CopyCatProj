@@ -45,7 +45,7 @@ const ProductPages = () => {
         <div className='pt-[120px]'>
             {
                 dataProductPages.map((data, id) => {
-                    if(id % 2 === 1 ) {
+                    if(id % 2 === 1) {
                         return (
                             <div className='w-full py-[40px] px-[20px] lg:p-0 mb-[40px] flex-row lg:flex lg:justify-around justify-center items-center mx-auto' key={id}>
                                 <div className=''>

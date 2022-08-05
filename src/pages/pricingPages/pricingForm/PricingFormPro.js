@@ -60,6 +60,7 @@ const PricingFormPro = () => {
             return {id, isUpdate, text};
         })
         setFormPro(wrapper);
+        console.log(wrapper);
     }
     
     return (

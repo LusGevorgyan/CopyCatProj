@@ -25,7 +25,6 @@ const Main = () => {
           <SectionSix/>
           <SectionSeven/>
           <SectionEight/>
-          {/* text = "So, although the Web does make up a large portion of the Internet." */}
           <SectionNine/>
           <SectionContact/>
           <Footer/>

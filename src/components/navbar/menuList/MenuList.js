@@ -12,7 +12,7 @@ const openMenu = () => {
     isOpen = true
   } else {
     openMenuBtn.classList.add('hidden')
-    isOpen = false
+    isOpen = false  
   }
   console.log(openMenuBtn?.classList);
   console.log(isOpen);

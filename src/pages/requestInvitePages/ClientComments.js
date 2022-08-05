@@ -6,7 +6,7 @@ const dataClientComments = [
     //     images: 'https://uploads-ssl.webflow.com/602a49b4c90708f6641a192e/62907b66671ae31ac24ed3a0_1581826680098.jpg',
     //     text: 'CopyCat helped us build a production-grade web app and ship it quickly.',
     //     name: 'Brahmnoor Chawla, Software Engineer @Google'
-    // }
+    // },
 
     // {
     //     id: 2,
