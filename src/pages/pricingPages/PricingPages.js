@@ -39,10 +39,10 @@ const PricingPages = () => {
             </div>
           </div>
         </div>
-      </div>
-          <div className=' text-[16px] leading-[24px] font-[400] font-sans mb-[120px] mx-[10px]'>
+        <div className='text-[16px] leading-[24px] font-[400] font-sans mb-[120px] mx-[10px]'>
             * - Limited libraries are supported. AI powered workflow coming soon!
           </div>
+      </div>
       <SectionContact/>
       <Footer/>
     </div>

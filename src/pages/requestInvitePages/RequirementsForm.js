@@ -109,7 +109,9 @@ const RequirementsForm = () => {
             </div>
             <RequestButton onClick={onclick}/>
         </div>
-        <p className='text-center pt-[1em] text-[20px] leading-[22px]'> * We never share user details with third parties, period. </p>
+        <p className='text-center pt-[1em] text-[20px] leading-[22px]'> 
+          * We never share user details with third parties, period. 
+        </p>
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { dataClientComments } from '../requestInvitePages/ClientComments'
 
 const dataSeven = [
     { id: 1, text: "Didn't have to change my workflow"},
@@ -16,10 +17,19 @@ const SectionSeven = () => {
                 <p className='mb-[24px] text-[20px] max-w-[500px] text-center leanding-[30px] font-[300]'> 
                     CopyCat helped us build a production-grade web app and ship it quickly. 
                 </p> 
-                <div className='pt-[20px]'>
-                    <p className='text-[20px] leading-[22px] text-center'> Jon Leguzmo, </p>
-                    <p className='text-[20px] leading-[22px] text-center'> React.js developer @Quotafox </p>
-                </div>
+                {
+                    dataClientComments.map((event) => (
+                        <div className='pt-[20px]'>
+                            <img
+                                className="d-block mx-auto w-[75px] h-[75px] mb-[20px] rounded-[16px]"
+                                src={event.images}
+                            />
+                            <p className='text-[20px] leading-[22px] text-center'> {event.name} </p>
+                        {/* <p className='text-[20px] leading-[22px] text-center'> React.js developer @Quotafox </p> */}
+                        </div>
+                    ))
+                }
+                
             </div>
         </div>
         <div className='mb-[20px] p-[48px] ml-[5vw] bg-[#000000] rounded-[16px]'>

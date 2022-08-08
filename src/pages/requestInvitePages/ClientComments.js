@@ -1,12 +1,12 @@
-import React from 'react'
+import React, { createContext, useState } from 'react'
 
-const dataClientComments = [
-    // {
-    //     id: 1,
-    //     images: 'https://uploads-ssl.webflow.com/602a49b4c90708f6641a192e/62907b66671ae31ac24ed3a0_1581826680098.jpg',
-    //     text: 'CopyCat helped us build a production-grade web app and ship it quickly.',
-    //     name: 'Brahmnoor Chawla, Software Engineer @Google'
-    // },
+export const dataClientComments = [
+    {
+        id: 1,
+        images: 'https://uploads-ssl.webflow.com/602a49b4c90708f6641a192e/62907b66671ae31ac24ed3a0_1581826680098.jpg',
+        text: 'CopyCat helped us build a production-grade web app and ship it quickly.',
+        name: 'Brahmnoor Chawla, Software Engineer @Google'
+    },
 
     // {
     //     id: 2,
@@ -15,12 +15,12 @@ const dataClientComments = [
     //     name: 'Ilango Rajagopal'
     // },
 
-    {
-        id: 3,
-        images: 'https://uploads-ssl.webflow.com/602a49b4c90708f6641a192e/6295da75021cd15ae5687695_adit%20gupta.jpeg',
-        text: 'My front-end team had to scale our existing product rapidly, and we were short-staffed. CopyCat helped us scale quickly by helping us increase capacity without adding new developers.',
-        name: 'Adit Gupta, CEO @ Lula Deliver'
-    },
+    // {
+    //     id: 3,
+    //     images: 'https://uploads-ssl.webflow.com/602a49b4c90708f6641a192e/6295da75021cd15ae5687695_adit%20gupta.jpeg',
+    //     text: 'My front-end team had to scale our existing product rapidly, and we were short-staffed. CopyCat helped us scale quickly by helping us increase capacity without adding new developers.',
+    //     name: 'Adit Gupta, CEO @ Lula Deliver'
+    // },
 ]
 
 const ClientComments = () => {
@@ -29,7 +29,7 @@ const ClientComments = () => {
             <h1 className='text-center text-[40px] leading-[44px] font-bold mb-[24px]'> Our Client Says </h1>
             {
                 dataClientComments.map((data) => (
-                    <div className='relative w-[300px] sm:w-[500px] xl:w-[600px] min-h-[450px] py-[40px] px-[50px]' key={data.id}>
+                    <div className='relative w-[300px] sm:w-[500px] xl:w-[600px] min-h-[450px] py-[40px] px-[50px]' key={data.id = 3}>
                         <img
                             className="d-block mx-auto w-[150px] h-[150px] border-[4px] border-solid border-[#e6c208] mb-[20px] rounded-[270px]"
                             src={data.images}
