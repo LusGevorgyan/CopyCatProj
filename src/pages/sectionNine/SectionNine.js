@@ -11,8 +11,8 @@ const SectionNine = () => {
               Powered by AI &amp; trained on 100,000 + designs, CopyCat will help you speed up your front-end development at an unprecedented rate and save hundreds of thousands of dollars for you.
             </div>
             <div className='pt-[18px] flex justify-center items-center'>
-            <Link to="request">
-              <Button bgColor="#FFD803" textColor="#141414" size="16px" width="250px" height="66px"> Request Your Invite </Button>         
+            <Link to="request"> 
+              <Button bgColor="#FFD803" textColor="#141414" size="16px" width="250px" height="66px"> Get Started </Button>         
             </Link>
             </div>
         </div>

@@ -8,7 +8,7 @@ const RequestAccessPages = () => {
   return (
     <div className='bg-[#E3F6F5] mx-auto'>
         <div className=''>
-            <Navbar />
+          <Navbar />
         </div>
         <div className='pb-[30px] mx-auto flex justify-center items-center'>
             <RequestInvite/>

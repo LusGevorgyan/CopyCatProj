@@ -9,12 +9,12 @@ const dataSeven = [
 
 const SectionSeven = () => {
   return (
-    <div className='grid gap-[20px] lg:flex justify-center lg:justify-between mx-auto m-[20px] max-w-[1200px] rounded-[15px] bg-[#BAE9E8] py-[18px] sm:py-[28px] lg:py-[48px] px-[32px] sm:px-[52px] lg:px-[72px]'>
+    <div className='grid gap-[20px] lg:flex justify-center lg:justify-between mx-auto m-[20px] max-w-[1200px] rounded-[15px] bg-[#ffd803] py-[18px] sm:py-[28px] lg:py-[48px] px-[32px] sm:px-[52px] lg:px-[72px]'>
         <div className=''>
-            <div className='text-center mx-auto max-w-[460px] mb-[24px]'>
-                <div className='text-[22px] sm:text-[25px] lg:text-[40px] leading-[28px] sm:leading-[40px] lg:leading-[54px] font-bold mb-[24px]'> “First time a tool has given me usable code to build upon” </div>
-                <p className='mb-[24px] text-[20px] max-w-[500px] text-left leanding-[30px] font-[300]'> 
-                    I like that CopyCat doesn't try to generate everything but just focuses on writing developer friendly code that I can instantly copy and build upon.
+               <div className='text-center mx-auto max-w-[460px] mb-[24px]'>
+                <div className='text-[22px] sm:text-[25px] lg:text-[40px] leading-[28px] sm:leading-[40px] lg:leading-[54px] font-bold mb-[24px]'> “ CopyCat gives me usable code to build upon” </div>
+                <p className='mb-[24px] text-[20px] max-w-[500px] text-center leanding-[30px] font-[300]'> 
+                    CopyCat helped us build a production-grade web app and ship it quickly. 
                 </p> 
                 <div className='pt-[20px]'>
                     <p className='text-[20px] leading-[22px] text-center'> Jon Leguzmo, </p>

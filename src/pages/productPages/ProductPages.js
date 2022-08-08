@@ -80,7 +80,7 @@ const ProductPages = () => {
                 <div className=' text-center tracking-[-.01em] mb-[30px] text-[20px] leading-[30px]'>Request your invite to CopyCat today!</div>
                 <div className='pt-[18px] flex justify-center items-center'>
                     <Link to="/request">
-                        <Button bgColor="#FFD803" textColor="#141414" size="16px" width="250px" height="66px"> Request Your Invite </Button>         
+                        <Button bgColor="#FFD803" textColor="#141414" size="16px" width="250px" height="66px"> Get Started </Button>         
                     </Link>
                 </div>
             </div>

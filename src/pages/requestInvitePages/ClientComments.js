@@ -23,7 +23,7 @@ const dataClientComments = [
     },
 ]
 
-const ClientComments =() => {
+const ClientComments = () => {
     return (
         <div  className='relative mx-auto w-[300px] sm:w-[500px] xl:w-[610px] min-h-[480px]'>
             <h1 className='text-center text-[40px] leading-[44px] font-bold mb-[24px]'> Our Client Says </h1>

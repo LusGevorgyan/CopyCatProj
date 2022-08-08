@@ -19,7 +19,7 @@ const PricingPages = () => {
                 <PricingFormBasic/>
                 <div className=' mt-[38px] mb-[25px] flex justify-center'>
                   <Link to="/request">
-                    <Button border="1px solid black" bgColor="white" textColor="black" size="16px" width="235px" height="58px"> Request Your Invite </Button>
+                    <Button border="1px solid black" bgColor="white" textColor="black" size="16px" width="235px" height="58px"> Get Started </Button>
                   </Link>
                 </div>
             </div>
@@ -27,7 +27,7 @@ const PricingPages = () => {
                 <PricingFormPro/>
                 <div className=' mt-[38px] mb-[25px] flex justify-center'>
                   <Link to="/request">
-                    <Button bgColor="black" textColor="white" size="16px" width="235px" height="57px"> Request Your Invite </Button>
+                    <Button bgColor="black" textColor="white" size="16px" width="235px" height="57px"> Get Started </Button>
                   </Link>
                 </div>
             </div>

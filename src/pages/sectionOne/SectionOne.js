@@ -18,7 +18,7 @@ const SectionOne = () => {
 
             <div className='ml-[-20px]'>
             <Link to="request">
-                <Button bgColor="#392396" textColor="white" size="16px" width="220px" height="66px"> Request Your Invite </Button>
+                <Button bgColor="#392396" textColor="white" size="16px" width="220px" height="66px"> Get Started For Free</Button>
             </Link>
             </div>
         </div>

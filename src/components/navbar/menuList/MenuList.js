@@ -39,7 +39,7 @@ const MenuList = () => {
 
           <div className='flex items-center'>
             <Link to="/request">
-              <Button  className="hover:no-underline" bgColor="#392396" textColor="white" size="16px" width="200px" height="50px"> Request Your Invite </Button>
+              <Button  className="hover:no-underline" bgColor="#392396" textColor="white" size="16px" width="200px" height="50px"> Get Started </Button>
             </Link>
             <span onClick={openMenu} className='block lg:hidden ml-[20px]'> <i className='fa fa-bars'></i> </span>
           </div>

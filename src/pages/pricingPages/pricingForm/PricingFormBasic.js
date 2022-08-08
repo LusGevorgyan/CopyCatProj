@@ -75,6 +75,8 @@ const PricingFormBasic = () => {
                         textDecoration:  isUpdate ? 'line-through' : 'none',
                         fill: isUpdate ? "#A3CAFF": "#ffd803" 
                     }}
+                    
+                    
                     onClick={(evt) => onUpdate(id)}
                 >
                     <svg className='mr-[10px]' xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 13 12">
