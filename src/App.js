@@ -7,6 +7,7 @@ import ProductPages from './pages/productPages/ProductPages';
 import ReleasesPages from './pages/releasesPages/ReleasesPages';
 import RequestPages from './pages/requestInvitePages/RequestPages';
 import RequestAccessPages from './pages/requestAccess/RequestAccessPages';
+import PageNotFound from './pages/PageNotFound';
 
 function App() {
   return ( 
@@ -19,6 +20,7 @@ function App() {
           <Route path='/releases' element={<ReleasesPages/>}/>
           <Route path='request' element={<RequestPages/>}/>
           <Route path='requestAccess' element={<RequestAccessPages/>}/>
+          <Route path='/old-home' element={<PageNotFound/>}/>
         {/* </Route> */}
       </Routes>
     </div>    
