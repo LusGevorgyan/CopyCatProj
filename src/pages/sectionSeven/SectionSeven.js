@@ -19,13 +19,12 @@ const SectionSeven = () => {
                 </p> 
                 {
                     dataClientComments.map((event) => (
-                        <div className='pt-[20px]'>
+                        <div className='pt-[20px]' key={event.id}>
                             <img
                                 className="d-block mx-auto w-[75px] h-[75px] mb-[20px] rounded-[16px]"
                                 src={event.images}
                             />
                             <p className='text-[20px] leading-[22px] text-center'> {event.name} </p>
-                        {/* <p className='text-[20px] leading-[22px] text-center'> React.js developer @Quotafox </p> */}
                         </div>
                     ))
                 }

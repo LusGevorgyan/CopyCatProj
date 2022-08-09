@@ -56,6 +56,7 @@ const SectionEight = () => {
           {
             sectionEightData.map(data => (
               <img 
+                key={data.id}
                 // className='h-[40px] lg:h-[18px] lg:max-w-[150px] mt-[18px] ml-[12px] mb-[18px] mr-[12px]' 
                 style={{ width: data.width, height: data.height}} 
                 src={data.images}
