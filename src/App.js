@@ -13,7 +13,8 @@ function App() {
   return ( 
     <div className=''>
       <Routes>
-          {/* <Route path='/' element={<Layout/>}> */}
+        {/* <Route path='/' element={<Layout />}>
+        </Route> */}
           <Route path='/' element={<Main/>}/>
           <Route path='/pricing' element={<PricingPages/>}/>
           <Route path='/product' element={<ProductPages/>}/>
@@ -21,7 +22,6 @@ function App() {
           <Route path='request' element={<RequestPages/>}/>
           <Route path='requestAccess' element={<RequestAccessPages/>}/>
           <Route path='/old-home' element={<PageNotFound/>}/>
-        {/* </Route> */}
       </Routes>
     </div>    
   );

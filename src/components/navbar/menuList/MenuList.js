@@ -48,18 +48,22 @@ const MenuList = () => {
 
       <div className='hidden open-menu-btn absolute left-0 top-[100%] lg:hidden w-full  p-[20px] bg-white'>
         <div className='flex flex-col mx-auto items-center justify-center max-w-[500px]'>
-          <div className='grid gap-[20px] '>
-            <Link to="/product" className='max-w-[200px] text-center font-["Space Grotesk"] font-[400] underline mx-[12px] text-[18px] cursor-pointer hover:text-gray-400 text-[#141414] leading-[24px]'>
-              Product
-            </Link>
+          <div className=''>
+            <div
+              className='grid gap-[20px]'>
+              <Link to="/product" className='max-w-[200px] text-center font-["Space Grotesk"] font-[400] underline mx-[12px] text-[18px] cursor-pointer hover:text-gray-400 text-[#141414] leading-[24px]'>
+                Product
+              </Link>
             
-            <Link to="/pricing" className='max-w-[200px] text-center font-["Space Grotesk"] font-[400] underline mx-[12px] text-[18px] cursor-pointer hover:text-gray-400 text-[#141414] leading-[24px]'>
-              Pricing
-            </Link>
+              <Link  to="/pricing" className='max-w-[200px] text-center font-["Space Grotesk"] font-[400] underline mx-[12px] text-[18px] cursor-pointer hover:text-gray-400 text-[#141414] leading-[24px]'>
+                Pricing
+              </Link>
+              
+              <Link to="/releases" className='max-w-[200px] text-center font-["Space Grotesk"] font-[400] underline mb-[20px] mx-[12px] text-[18px] cursor-pointer hover:text-gray-400 text-[#141414] leading-[24px]'>
+                Releases
+              </Link>
+            </div>
             
-            <Link to="/releases" className='max-w-[200px] text-center font-["Space Grotesk"] font-[400] underline mx-[12px] text-[18px] cursor-pointer hover:text-gray-400 text-[#141414] leading-[24px]'>
-              Releases
-            </Link>
             <Link to="/requestAccess">
               <Button className="hover:no-underline" bgColor="#392396" textColor="white" size="16px" width="100%" height="50px"> Request Invite </Button>
             </Link>

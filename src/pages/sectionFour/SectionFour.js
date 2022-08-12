@@ -36,13 +36,19 @@ const dataFour = [
 
 const SectionFour = () => {
   return (
-    <div className=' mx-auto mt-[20px] max-w-[1300px] rounded-[15px] py-[18px] sm:py-[28px] lg:py-[48px] px-[32px] sm:px-[52px] lg:px-[72px]'>
-            <h1 className='text-center font-space-grotesk text-[40px] mb-[36px] leading-[44px] font-bold text-[#141414]'> Why customers like CopyCat </h1>
-        <div className='flex justify-center flex-wrap p-0 lg:p-[36px]'>
+    <div className=' mx-auto mt-[20px] max-w-[1300px] rounded-[15px] py-[28px] sm:py-[28px] lg:py-[48px] px-[32px] sm:px-[52px] lg:px-[72px]'>
+        <h1 className='text-center font-space-grotesk text-[40px] mb-[36px] leading-[44px] font-bold text-[#141414]'> Why customers like CopyCat </h1>
+        <div className='flex justify-center flex-wrap gap-[20px] p-0 lg:p-[36px]'>
             {
                 dataFour.map((data, id) => (
-                    <div className='flex justify-center flex-wrap py-[36px] lg:py-0 lg:p-[36px] w-[270px]' key={id}>
-                    <div className='flex justify-center items-center w-[72px] h-[36px] rounded-[12px]' style={{"backgroundColor": `${data.bgColor}`}}>
+                    <div
+                        className='bg-red-400 border-[1px] border-solid border-[#b6b6b6] rounded-[20px] flex justify-center flex-wrap py-[36px] lg:py-0 lg:p-[36px] w-[270px]'
+                        key={id}
+                    >
+                        <div
+                            className='flex justify-center items-center w-[72px] h-[90px] rounded-[12px]'
+                            style={{ "backgroundColor" : `${data.bgColor}` }}
+                        >
                             <img src={data.img}/>
                         </div>
                         <div className=''>
