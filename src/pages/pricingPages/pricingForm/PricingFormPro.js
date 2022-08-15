@@ -64,10 +64,10 @@ const PricingFormPro = () => {
     
     return (
         <div className='mx-[10px] pt-[30px] px-[40px] pb-[10px]'>
-            <h1 className='text-[21px] text-center font-bold leading-[28px]'>  Pro </h1>
-            <div className='text-[55px] text-center leading-[70px] mb-[3px] font-bold'> $24 </div>
-            <div className='text-[11px] text-center leading-[21px]'> Per month, Billed monthly </div>
-            <div className='text-[16px] text-center mb-[20px] leading-[24px]'> Best for individual coders </div>
+            <h1 className='text-[21px] font-grotesk text-center font-bold leading-[28px]'>  Pro </h1>
+            <div className='text-[55px] font-grotesk text-center leading-[70px] mb-[3px] font-bold'> $24 </div>
+            <div className='text-[11px] font-grotesk text-center leading-[21px]'> Per month, Billed monthly </div>
+            <div className='text-[16px] font-grotesk text-center mb-[20px] leading-[24px]'> Best for individual coders </div>
             {
                 formPro.map(({id, isUpdate, text}) => (
                     <div 

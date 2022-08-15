@@ -15,7 +15,7 @@ const SectionSix = () => {
             </div>
         <div className='flex justify-center items-center'>
             <Link to="request">
-                <Button bgColor="#392396" textColor="white" size="16px" width="220px" height="66px"> Get Started </Button>
+                <Button bgColor="#392396" radius="6px" textColor="white" size="16px" width="150px" height="66px"> Get Started </Button>
             </Link>
         </div>
     </div>

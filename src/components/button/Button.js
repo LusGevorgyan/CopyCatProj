@@ -10,9 +10,10 @@ const Button = (props) => {
               fontSize: props.size,
               width: props.width,
               height: props.height,
-              color: props.textColor
+              color: props.textColor,
+              borderRadius: props.radius
             }}
-            className={`hover:no-underline font-bold font-space-grotesk rounded-[4px] py-[12px] px-[24px] flex items-center justify-center`}
+            className={`hover:no-underline font-bold font-grotesk font-space-grotesk rounded-[4px] py-[12px] px-[24px] flex items-center justify-center`}
         > 
             {props.children}
         </button>

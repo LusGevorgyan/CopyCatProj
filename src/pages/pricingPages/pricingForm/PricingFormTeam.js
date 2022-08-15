@@ -62,10 +62,10 @@ const PricingFormTeam = () => {
     }
     return (
         <div className='mx-[10px] pt-[30px] px-[40px] pb-[10px]'>
-            <h1 className='text-[21px] text-center font-bold leading-[28px]'>  Team </h1>
-            <div className='text-[55px] text-center leading-[70px] mb-[3px] font-bold'> Custom </div>
-            <div className='text-[11px] text-center leading-[21px]'> Per month, Billed monthly, 3 seat minimum </div>
-            <div className='text-[16px] text-center mb-[20px] leading-[24px]'> For medium to large sized teams with multiple projects </div>
+            <h1 className='text-[21px] font-grotesk text-center font-bold leading-[28px]'>  Team </h1>
+            <div className='text-[55px] font-grotesk text-center leading-[70px] mb-[3px] font-bold'> Custom </div>
+            <div className='text-[11px] font-grotesk text-center leading-[21px]'> Per month, Billed monthly, 3 seat minimum </div>
+            <div className='text-[16px] font-grotesk text-center mb-[20px] leading-[24px]'> For medium to large sized teams with multiple projects </div>
             {
                 formTeam.map(({id, isUpdate, text}) => (
                     <div 

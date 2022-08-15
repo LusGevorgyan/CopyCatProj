@@ -24,8 +24,8 @@ const PricingPages = () => {
                     bgColor="white"
                     textColor="black"
                     size="16px"
-                    width="235px"
-                    height="58px"
+                    width="220px"
+                    height="55px"
                   >
                     {" "}
                     Get Started{" "}
@@ -41,8 +41,8 @@ const PricingPages = () => {
                     bgColor="black"
                     textColor="white"
                     size="16px"
-                    width="235px"
-                    height="57px"
+                    width="220px"
+                    height="55px"
                   >
                     {" "}
                     Get Started{" "}
@@ -52,12 +52,12 @@ const PricingPages = () => {
             </div>
             <div className="w-[313px] h-[590px] mb-[50px] shadow-md">
               <PricingFormTeam />
-              <div className=" mt-[38px] mb-[25px] flex justify-center">
+              <div className=" mb-[25px] flex justify-center">
                 <Button
                   bgColor="black"
                   textColor="white"
                   size="16px"
-                  width="233px"
+                  width="220px"
                   height="55px"
                 >
                   {" "}
@@ -67,7 +67,7 @@ const PricingPages = () => {
             </div>
           </div>
         </div>
-        <div className="text-[16px] leading-[24px] font-[400] font-sans mb-[120px] mx-[10px]">
+        <div className="max-w-[900px] text-[16px] leading-[24px] font-[400] font-sans mb-[120px] mx-auto">
           * - Limited libraries are supported. AI powered workflow coming soon!
         </div>
       </div>

@@ -37,12 +37,12 @@ const dataFour = [
 const SectionFour = () => {
   return (
     <div className=' mx-auto mt-[20px] max-w-[1300px] rounded-[15px] py-[28px] sm:py-[28px] lg:py-[48px] px-[32px] sm:px-[52px] lg:px-[72px]'>
-        <h1 className='text-center font-space-grotesk text-[40px] mb-[36px] leading-[44px] font-bold text-[#141414]'> Why customers like CopyCat </h1>
-        <div className='flex justify-center flex-wrap gap-[20px] p-0 lg:p-[36px]'>
+        <h1 className='text-center font-grotesk text-[40px] mb-[36px] leading-[44px] font-bold text-[#141414]'> Why customers like CopyCat </h1>
+        <div className='flex justify-center flex-wrap gap-[20px] p-[36px] lg:p-[36px]'>
             {
                 dataFour.map((data, id) => (
                     <div
-                        className='bg-red-400 border-[1px] border-solid border-[#b6b6b6] rounded-[20px] flex justify-center flex-wrap py-[36px] lg:py-0 lg:p-[36px] w-[270px]'
+                        className='border-[1px] border-solid border-[#b6b6b6] rounded-[20px] flex justify-center flex-wrap p-[36px] w-[270px]'
                         key={id}
                     >
                         <div
@@ -52,8 +52,8 @@ const SectionFour = () => {
                             <img src={data.img}/>
                         </div>
                         <div className=''>
-                            <h4 className='text-[24px] text-center my-[24px] leading-[30px] text-[#141414] font-bold font-space-grotesk'> {data.title} </h4>
-                            <div className='text-[20px] text-center leading-[30px] text-[#141414] font-[600] font-space-groteskb'> {data.text} </div>
+                            <h4 className='text-[24px] text-center my-[24px] leading-[30px] text-[#141414] font-[600] font-serif'> {data.title} </h4>
+                            <div className='text-[20px] text-center leading-[30px] text-[#141414] font-[600] font-serif'> {data.text} </div>
                         </div>
                     </div>
                 ))

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 import RequestButton from './RequestButton'
 
 const RequirementsForm = () => {
@@ -127,7 +128,9 @@ const RequirementsForm = () => {
             <option value="audi">Others</option>
           </select>
         </div>
-        <RequestButton onClick={onclick} />
+        <Link to="/request-access-form">
+          <RequestButton />
+        </Link>
       </div>
       <p className="text-center pt-[1em] text-[20px] leading-[22px]">
         * We never share user details with third parties, period.

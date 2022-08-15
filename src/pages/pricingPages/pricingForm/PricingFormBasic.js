@@ -63,10 +63,10 @@ const PricingFormBasic = () => {
     
   return (
     <div className='mx-[10px] pt-[30px] px-[40px] pb-[10px]'>
-        <h1 className='text-[21px] text-center font-bold leading-[28px]'>  Basic </h1>
-        <div className='text-[55px] text-center leading-[70px] mb-[3px] font-bold'> $0 </div>
-        <div className='text-[11px] text-center leading-[21px]'> Upgraded to individual plan after trial </div>
-        <div className='text-[16px] text-center mb-[20px] leading-[24px]'> 7 days with unlimited exports </div>
+        <h1 className='text-[21px] font-grotesk text-center font-bold leading-[28px]'>  Basic </h1>
+        <div className='text-[55px] font-grotesk text-center leading-[70px] mb-[3px] font-bold'> $0 </div>
+        <div className='text-[11px] font-grotesk text-center font-[300] leading-[21px]'> Upgraded to individual plan after trial </div>
+        <div className='text-[16px] font-grotesk text-center font-[300] mb-[20px] leading-[24px]'> 7 days with unlimited exports </div>
         {
             formBasic.map(({id, isUpdate, text}) => (
                 <div className='flex items-center justify-start mb-[10px] cursor-pointer select-none' 
