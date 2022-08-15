@@ -7,10 +7,10 @@ const SectionContact = () => {
         <div className='max-w-[1300px] grid gap-[20px] lg:flex mx-auto justify-center lg:mx-[50px] lg:justify-between min-h-[190px] px-[32px] sm:px-[52px] lg:px-[72px]'> 
           <div className=''>
             <ul className='lg:mx-0 w-[200px]'>
-              <li className='text-[32px] leading-[36px] mb-[12px] font-bold text-white'> <a href=''>BUILD UI</a> </li>
-              <li className='text-[32px] leading-[36px] mb-[12px] font-bold text-white'> <a href=''>Faster</a> </li>
-              <li className='text-[32px] leading-[36px] mb-[12px] font-bold text-white'> <a href=''>Than Your</a> </li>
-              <li className='text-[32px] leading-[36px] mb-[12px] font-bold text-white'> <a href=''>Competition</a> </li>
+              <li className='text-[32px] leading-[36px] mb-[12px] font-grotesk font-bold text-white'> <a href=''>BUILD UI</a> </li>
+              <li className='text-[32px] leading-[36px] mb-[12px] font-grotesk font-bold text-white'> <a href=''>Faster</a> </li>
+              <li className='text-[32px] leading-[36px] mb-[12px] font-grotesk font-bold text-white'> <a href=''>Than Your</a> </li>
+              <li className='text-[32px] leading-[36px] mb-[12px] font-grotesk font-bold text-white'> <a href=''>Competition</a> </li>
             </ul>
           </div>
         <div className='max-w-[600px] xl:max-w-[1300px] md:flex-wrap grid gap-[20px] lg:flex mx-auto justify-center lg:mx-[50px] lg:justify-around min-h-[190px]'>

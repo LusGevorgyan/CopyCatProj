@@ -4,7 +4,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'space-grotesk': ['Space Grotesk','sans-serif'],
+      'grotesk': ['Space Grotesk', 'sans-serif'],
+      'serif': ['sans-serif'],
       'inherit': ['inherit'],
       'mono': ['ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"'],
     },

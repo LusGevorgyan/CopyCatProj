@@ -24,12 +24,12 @@ const SectionTwo = () => {
   return (
     <div className='flex flex-col lg:flex-row justify-between items-center mx-auto mt-[80px] max-w-[1300px] rounded-[15px] px-[20px] py-[48px]'>
         <div className='max-w-[500px]'>
-            <h1 className='mb-[24px] font-space-grotesk text-[38px] font-bold max-w-[600px] leanding-[39px]'> How it works </h1>
+            <h1 className='mb-[24px] font-grotesk text-[38px] font-bold max-w-[600px] leanding-[39px]'> How it works </h1>
             {
               dataTwo.map((data, id) => (
                 <div className='text-left mb-[24px]' key={id}>
-                  <h3 className='text-[28px] font-bold font-space-grotesk leanding-[32px] mb-[18px] mt-[12px]'> {data.title} </h3>
-                  <p className='mb-[24px] text-[16px] font-space-grotesk leanding-[24px] font-[300]'> {data.text} </p>
+                  <h3 className='text-[28px] font-bold font-serif leanding-[32px] mb-[18px] mt-[12px]'> {data.title} </h3>
+                  <p className='mb-[24px] text-[16px] font-serif leanding-[24px] font-[300]'> {data.text} </p>
                 </div>
               ))
             }

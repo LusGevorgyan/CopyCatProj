@@ -9,6 +9,7 @@ const RequestPages = () => {
     <div className="bg-[#E3F6F5] w-full">
       <div className="relative pb-[30px] top-[30px] mx-auto grid gap-[20px] lg:flex justify-center items-center">
         <RequirementsForm />
+        <h1 className="text-center text-[40px] leading-[44px] font-bold mb-[24px]"></h1>
         <ClientComments />
       </div>
       <Link to="/old-home">

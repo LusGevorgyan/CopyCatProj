@@ -12,7 +12,7 @@ const SectionNine = () => {
             </div>
             <div className='pt-[18px] flex justify-center items-center'>
             <Link to="request"> 
-              <Button bgColor="#FFD803" textColor="#141414" size="16px" width="250px" height="66px"> Get Started </Button>         
+              <Button bgColor="#392396" textColor="white" size="16px" radius="6px" width="180px" height="66px"> Get Started </Button>         
             </Link>
             </div>
         </div>

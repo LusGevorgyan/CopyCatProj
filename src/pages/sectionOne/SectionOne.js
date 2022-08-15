@@ -10,10 +10,10 @@ const SectionOne = () => {
             <div className=''>
                 <img className=' block lg:hidden mb-[28px] w-[150px] h-[75px]' src={FigmaAndReat}/>
             </div>
-            <h1 className='mb-[24px] text-[30px] sm:text-[40px] lg:text-[54px] font-inherit font-bold c'> Build React.js UI with a click of a button </h1> 
+            <h1 className='mb-[24px] text-[30px] sm:text-[40px] lg:text-[54px] font-grotesk font-bold'> Build React.js UI with a click of a button </h1> 
             <div className='text-left mb-[24px]'>
-                <p className='mb-[24px] text-[20px] leanding-[30px] font-space-grotesk font-[300]'> It even works for mature codebases! </p> 
-                <p className='text-[20px] leanding-[30px] font-space-grotesk font-[300]'> Don’t believe us? Give it a try. </p> 
+                <p className='mb-[24px] text-[20px] leanding-[30px] font-serif font-[300]'> It even works for mature codebases! </p> 
+                <p className='text-[20px] leanding-[30px] font-serif font-[300]'> Don’t believe us? Give it a try. </p> 
             </div>
 
             <div className='ml-[-20px]'>

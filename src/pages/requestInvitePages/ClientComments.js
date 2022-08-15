@@ -1,4 +1,5 @@
 import React, { createContext, useState } from 'react'
+import Carousel from 'react-bootstrap/Carousel';
 
 export const dataClientComments = [
     {
@@ -51,6 +52,8 @@ const ClientComments = () => {
                     </div>
                 ))
             }
+
+
                 <span className="absolute top-[300px] left-[5px] span w-[40px] h-[40px] rounded-[30px] bg-[#e6c208] flex items-center justify-center"> 
                     <i className="fas fa-chevron-left text-[24px]"></i>
                 </span>
@@ -68,6 +71,8 @@ const ClientComments = () => {
                 </div> */}
         </div>
     )
-} 
-  
+    
+
+}
+
 export default ClientComments
