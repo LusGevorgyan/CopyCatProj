@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 const sectionEightData = [
   {
@@ -45,9 +45,6 @@ const sectionEightData = [
 ]
 
 export default function SectionEight() {
-  // const {images} = sectionEightData
-  // const max = 5
-
   return (
     <div className="flex flex-col	justify-between items-center mx-auto mt-[20px] gap-[30px] max-w-[1200px] py-[18px] sm:py-[28px] lg:py-[48px] px-[32px] sm:px-[52px] lg:px-[72px]">
       <h1 className="text-center  max-w-[600px] text-[40px] mb-[18px] leading-[44px] font-bold text-[#141414]">
@@ -66,15 +63,6 @@ export default function SectionEight() {
       </div>
       <p className="text-[20px] pt-[1em] leading-[22px] text-center">
         Add More ....
-        {/* {sectionEightData.id > max ? images: '...'} */}
-        {/* <a href = "#" 
-              onClick ={(event)=>{
-                event.preventDefault();
-                setShowLess(!showLess)
-              }} 
-            > 
-              {showLess ? "More": "Less"}
-            </a> */}
       </p>
     </div>
   );

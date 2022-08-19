@@ -1,5 +1,4 @@
 import React, { createContext, useState } from 'react'
-import Carousel from 'react-bootstrap/Carousel';
 
 export const dataClientComments = [
     {
@@ -53,7 +52,6 @@ const ClientComments = () => {
                 ))
             }
 
-
                 <span className="absolute top-[300px] left-[5px] span w-[40px] h-[40px] rounded-[30px] bg-[#e6c208] flex items-center justify-center"> 
                     <i className="fas fa-chevron-left text-[24px]"></i>
                 </span>
@@ -61,14 +59,6 @@ const ClientComments = () => {
                 <span className="absolute top-[300px] right-[5px] w-[40px] h-[40px] rounded-[30px] bg-[#e6c208] flex items-center justify-center">
                     <i className="fas fa-chevron-right text-[24px]"></i>
                 </span>
-{/* 
-                <div className='absolute bottom-4 left-[150px] xl:left-[250px] mt-[10px] mx-auto'>
-                    <div className='flex justify-center items center '> 
-                        <div className='w-[1em] bg-[#e6c208] h-[1em] mx-[3px] mb-[8px] rounded-[100%]'></div>
-                        <div className='w-[1em] bg-[#f26d03] h-[1em] mx-[3px] mb-[8px] rounded-[100%]'></div>
-                        <div className='w-[1em] bg-[#f26d03] h-[1em] mx-[3px] mb-[8px] rounded-[100%]'></div>
-                    </div>
-                </div> */}
         </div>
     )
     
